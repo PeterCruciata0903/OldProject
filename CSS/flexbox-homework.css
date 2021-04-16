@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.movie {
+    padding:25px;
+    background:#3c342b;
+    color:goldenrod;
+    margin-bottom:25px;
+}
+
+.movie:nth-of-type(odd){
+    background:goldenrod;
+    color:#3c342b;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+}
+.movie:nth-of-type(7){
+    order: -1;
+}
+.movie:nth-of-type(9){
+    order: 1;
+    background:#3c342b;
+    color:goldenrod;
+}
+.movie:nth-of-type(6){
+    order: 2;
+    background:goldenrod;
+    color:#3c342b;
+}
+.movie:nth-of-type(3){
+    order: 3;
+    background:#3c342b;
+    color:goldenrod;
+}
+.movie:nth-of-type(4){
+    order: 4;
+    background:goldenrod;
+    color:#3c342b;
+}
+.movie:nth-of-type(8){
+    order: 5;
+}
+.movie:nth-of-type(1){
+    order: 6; 
+}
+.movie:nth-of-type(5){
+    order: 7;
+    background:#3c342b;
+    color:goldenrod;
+}
+.movie:nth-of-type(10){
+    order: 8;
+    background:goldenrod;
+    color:#3c342b;
+}
+.movie:nth-of-type(2){
+    order: 9;
+}
+@media only screen and (max-width: 769px) {
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+    .movie {
+        padding:25px;
+        background:#3c342b;
+        color:goldenrod;
+        margin-bottom:25px;
+    }
+    .movie:nth-of-type(odd){
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .movie:nth-of-type(7){
+        order: 9;
+        background:#3c342b;
+        color:goldenrod;
+    }
+    .movie:nth-of-type(9){
+        order: 8;
+    }
+    .movie:nth-of-type(6){
+        order: 7;
+        background:#3c342b;
+        color:goldenrod;
+    }
+    .movie:nth-of-type(3){
+        order: 6;
+    }
+    .movie:nth-of-type(4){
+        order: 5;
+        background:#3c342b;
+        color:goldenrod;
+    }
+    .movie:nth-of-type(8){
+        order: 4;
+        background:goldenrod;
+        color:#3c342b;
+    }
+    .movie:nth-of-type(1){
+        order: 3; 
+        background:#3c342b;
+        color:goldenrod;
+    }
+    .movie:nth-of-type(5){
+        order: 2;
+    }
+    .movie:nth-of-type(10){
+        order: 1;
+        background:#3c342b;
+        color:goldenrod;
+    }
+    .movie:nth-of-type(2){
+        order: -1;
+        background:goldenrod;
+        color:#3c342b;
+    }
+}
+
+
